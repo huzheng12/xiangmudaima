@@ -1,0 +1,35 @@
+.xinq-bianxie{
+    width: 80%;
+    height: 100px;
+    margin-top: 10px;
+}
+#acee{
+    padding: 15px;
+    padding-left: 100px;
+    li{
+        // padding-left: 10px;
+        // padding-right: 10px;
+        list-style: none;
+        line-height: 40px;
+        position: relative;
+        // border-bottom:1px solid #e4bbbb;
+        span{
+            border-radius: 5px;
+            border:1px dashed #666;
+            float: left;
+            padding:  0 5px;
+            margin:  5px 0;
+            min-height: 40px;
+        }
+        p{
+            float:right;
+            position: absolute;
+            bottom: 50%;
+            right: 10px;
+            transform: translateY(50%)
+        }
+    }
+}
+.but{
+    
+}

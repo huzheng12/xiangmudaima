@@ -1,0 +1,89 @@
+.li-liuyanmban{
+    width: 940px;
+    height: 188px;
+    background-color: black;
+    padding-bottom: 5px;
+    border-width: 0 0 1px 0;
+    border-top: 1px solid #606266;
+    list-style:none;
+    margin: 0 1px;
+    padding-left:80px ;
+    // display: flex;
+    position: relative;
+    .li-touxiang{
+        // float: left;
+        position: absolute;
+        left: 0;top: 0;
+        width:80px;
+        height: 188px;
+        >img{
+            width: 70px;
+            height: 70px;
+            margin: 5px;
+        }
+    }
+    .book-liuyanneri{
+        // float: left;
+        width: 100%;
+        height: 100%;
+    }
+}
+.liuyan-one{
+    width: 100%;
+    height: 25px;
+    margin-top: 10px;
+    >span{
+        color: #305E67;
+        margin-right: 10px;
+    }
+}
+.liuyan-toe{
+    color: #A7A7A7;
+    margin-top: 15px;
+    font-size: 16px;
+    padding-right: 80px;
+    text-indent:32px
+}
+.liuyan-stran{
+    font-size: 14px;
+    color: #757575;
+    position: absolute;
+    bottom: 20px;
+    left: 80px;
+   button{
+    color: #305E67;
+    background-color:transparent;
+    border-color: transparent;
+    border: none;
+    position: absolute;
+    bottom: 2px;
+    left: 157px;
+    width: 30px;
+   }
+}
+.foot-liuyanban{
+    width: 100%;
+    height: 80px;
+    border-top: 3px solid #606266;
+    background: #000;
+    margin: 0 1px;
+    text-align: center
+}
+.but-liuyanban-quw{
+    color: #305E67;
+    background-color: transparent;
+    border-color: transparent;
+    border: none;
+    width: 88px;
+}
+.fenye-but{
+    text-align: center;
+    color: #305E67;
+    background-color: #fff;
+    border-color: #000;
+    border: none;
+    width: 20px;
+    margin-right: 5px;
+    height: 20px;
+    line-height: 20px;
+}

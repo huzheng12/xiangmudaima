@@ -1,0 +1,30 @@
+.nav-wap{
+    background: url('../../img/menu_bg.png') top center repeat;
+    width: 100%;
+    height: 50px;
+    margin-top: -10px;
+    li{
+        float: left;
+        margin: 0 23px;
+    }
+}
+.Nav-link-text{
+    color: #fff;
+    height: 50px;
+    line-height: 50px;
+    padding: 3px 15px;
+    font-weight: bold;
+    outline: medium none;
+    text-decoration: none;
+    display: inline-block;
+}
+.Nav-link-text:hover{
+    background: #dcba9a;
+    text-decoration: none;
+    border-radius: 0px 30px;
+}
+#nav-active{
+    background: #dcba9a;
+    text-decoration: none;
+    border-radius: 0px 30px;
+}

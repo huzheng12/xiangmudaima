@@ -1,0 +1,91 @@
+@import './animate.css';
+@import './common.scss';
+@import './fonts/iconfont.css';
+
+
+*{
+    margin: 0;padding: 0;
+}
+// selecter {font-family: 赋值的字体} 
+@font-face {
+    font-family: 'Georgia';   /*字体名称*/
+    src: url('./fonts/Georgia.ttf'),     /*字体源文件*/
+     url('./fonts/Georgia.ttf') format('truetype')
+}
+html,body,#root,.box{
+    width: 100vw;
+    // height: 100vh;  
+}
+body{
+    background: #f0d0a9 url('../scripts/img/top.jpg') center top no-repeat;
+    font-family: "Microsoft Yahei";
+    margin: 0;
+    padding: 0;
+    color: #333;
+}    h2{
+    line-height: 30px;
+    font-size: 16px;
+    border-bottom: 2px solid #936636;
+    padding-bottom: 5px;
+}
+.box-warp-ton{
+    box-sizing: border-box;
+    min-height: 750px;
+    background: #f8f6f2;
+    width: 1050px;
+    margin: 18px auto;
+    overflow: hidden;
+    border-radius: 18px;
+}
+.denglu-login{
+    width: 200px;
+    height: 50px;
+    position: fixed;
+    right: 52px;
+    text-align: center;
+    line-height: 50px;
+    top: 66px;
+    animation:mymove 6s infinite alternate linear;
+    z-index: 99999999999;
+}
+@keyframes mymove{
+    from {top:0px;}
+to {top:200px;}
+}
+.but-a-anniu{
+    display: inline-block;
+    line-height: 1;
+    white-space: nowrap;
+    cursor: pointer;
+    background: #fff;
+    border: 1px solid #dcdfe6;
+    color: #606266;
+    -webkit-appearance: none;
+    text-align: center;
+    box-sizing: border-box;
+    outline: none;
+    margin: 0;
+    transition: .1s;
+    font-weight: 500;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    padding: 12px 20px;
+    font-size: 14px;
+    border-radius: 4px;
+    color: #fff;
+    background-color: #409eff;
+    border-color: #409eff;
+    margin-left: 10px;
+}
+#edui1{
+    width: 1020px !important;
+}
+#container{
+    position: absolute;
+    left: 15px;
+    top: 52px
+}
+#edui1_iframeholder{
+    height: 466px;
+}

@@ -1,0 +1,46 @@
+.banner{
+    width: 710px;
+    height: 300px;
+    float: left;
+    position: relative;
+}
+
+
+#one{
+    width: 125px;
+    float: right;
+    height: 320px;
+    .swiper-container{
+       
+        width: 100%;
+        height: 100%;
+        .swiper-wrapper{
+            flex-direction: column;
+            flex: 1;
+            width: 100% !important;
+            >div{
+                width: 90% !important;
+                padding: 4.85%;
+                background: #eee;
+                margin-bottom: 5.5%;
+                cursor: pointer;
+                height: 56.5px !important;
+                // opacity: 0.4;
+                >img{
+                    width: 100% !important;
+                    height: 100%;
+                }
+            }
+            .swiper-slide-thumb-active{
+                // opacity: 1;
+                background: #f0d0a9;
+            }
+        }
+    }
+}
+#toe{
+    .swiper-container{
+        width: 575px;
+        height: 295px;
+    }
+}
